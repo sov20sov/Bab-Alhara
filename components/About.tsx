@@ -18,7 +18,7 @@ const About: React.FC = () => {
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-slate-100 rounded-full -z-0"></div>
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-amber-50 rounded-full -z-0"></div>
             
-            <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 bg-slate-900 p-8 rounded-3xl shadow-xl text-white hidden lg:block z-20">
+            <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 bg-slate-900 p-6 sm:p-8 rounded-3xl shadow-xl text-white hidden lg:block z-20">
               <p className="text-4xl font-extrabold text-amber-500 mb-1">100%</p>
               <p className="text-sm font-medium text-slate-400 uppercase tracking-widest">تغطية محلية</p>
             </div>

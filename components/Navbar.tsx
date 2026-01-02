@@ -60,9 +60,10 @@ const Navbar: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`${scrolled ? 'text-slate-900' : 'text-white'} p-2`}
+              className={`${scrolled ? 'text-slate-900' : 'text-white'} p-2 hover:bg-white/10 rounded-lg transition-colors`}
+              aria-label="Toggle menu"
             >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
@@ -71,12 +72,12 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-xl absolute top-full left-0 w-full animate-in slide-in-from-top-2 duration-200">
-          <div className="px-4 pt-2 pb-6 space-y-1">
+          <div className="px-4 pt-4 pb-6 space-y-3">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="block px-3 py-4 text-lg font-medium text-slate-700 border-b border-gray-50 hover:bg-gray-50"
+                className="block px-4 py-3 text-lg font-medium text-slate-700 border-b border-gray-50 hover:bg-gray-50 rounded-lg transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
@@ -85,7 +86,7 @@ const Navbar: React.FC = () => {
             <div className="pt-4">
               <a
                 href="tel:07803091767"
-                className="w-full bg-slate-900 text-white py-4 rounded-xl font-bold flex justify-center items-center gap-2"
+                className="w-full bg-slate-900 text-white py-4 px-6 rounded-xl font-bold text-lg hover:bg-slate-800 transition-all shadow-lg hover:shadow-slate-200 flex items-center justify-center gap-2"
               >
                 <Phone size={20} />
                 <span>اتصل بنا الآن</span>

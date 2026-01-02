@@ -14,7 +14,7 @@ const Trust: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-20 items-center">
           <div className="space-y-8 text-center lg:text-right">
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
               ثقة أهل المنطقة هي <br />
@@ -24,7 +24,7 @@ const Trust: React.FC = () => {
               نحن لا نبيع العقارات فحسب، بل نبني علاقات تدوم طويلاً. سمعتنا هي الضمان الذي نقدمه لكل عميل يدخل باب مكتبنا.
             </p>
             
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               {[
                 'فريق عمل مرخص ومحترف',
                 'التزام تام بالشفافية',

@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-950 text-white pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-20 border-b border-white/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 pb-20 border-b border-white/10">
           <div className="space-y-6">
             <div className="flex flex-col items-start leading-tight">
               <span className="text-3xl font-extrabold text-white">باب الحارة</span>
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           </div>
           </div>
 
-        <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="pt-12 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-6">
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()} مكتب باب الحارة للعقار. جميع الحقوق محفوظة.
           </p>
