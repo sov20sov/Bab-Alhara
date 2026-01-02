@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: isGithubPages ? '//' : '/',
+    base: isGithubPages ? '/Bab-Alhara/' : '/',
     resolve: { alias: { '@': path.resolve(__dirname, 'src') } },
   }
 })
