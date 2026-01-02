@@ -74,18 +74,6 @@ const Hero: React.FC = () => {
             نساعدك في بيع، شراء، وتأجير العقارات بكل احترافية وشفافية. شريكك الموثوق لتحويل حلم السكن إلى واقع ملموس.
           </p>
 
-          {/* Feature Highlights */}
-          <div className="flex flex-wrap gap-3 sm:gap-6 py-4 animate-fade-in-up delay-900">
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 border border-white/20">
-              <Home className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" />
-              <span className="text-xs sm:text-sm font-medium">عقارات متنوعة</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 border border-white/20">
-              <Award className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" />
-              <span className="text-xs sm:text-sm font-medium">خدمة احترافية</span>
-            </div>
-          </div>
-
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 animate-fade-in-up delay-1100">
             <a
               href="tel:07803091767"
