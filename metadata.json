@@ -1,0 +1,7 @@
+{
+  "name": "Bab Al-Hara Real Estate Office",
+  "description": "A professional and modern Arabic real estate website for Bab Al-Hara, focusing on trust, local expertise, and seamless property services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
