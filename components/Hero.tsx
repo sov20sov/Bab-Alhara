@@ -54,7 +54,23 @@ const Hero: React.FC = () => {
             <span className="text-amber-500 animate-glow">خبرة محلية… وثقة تبنى</span>
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 font-light leading-relaxed max-w-2xl animate-fade-in-up delay-700">
+          <p
+            className="
+              text-sm sm:text-lg md:text-xl lg:text-2xl
+              text-white/90
+              font-normal
+              leading-relaxed
+              max-w-2xl
+              animate-fade-in-up
+              delay-700
+
+              bg-black/40 sm:bg-transparent
+              backdrop-blur-md sm:backdrop-blur-0
+              px-4 py-3 sm:px-0 sm:py-0
+              rounded-xl
+              shadow-lg sm:shadow-none
+            "
+          >
             نساعدك في بيع، شراء، وتأجير العقارات بكل احترافية وشفافية. شريكك الموثوق لتحويل حلم السكن إلى واقع ملموس.
           </p>
 
